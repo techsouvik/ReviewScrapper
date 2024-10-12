@@ -18,7 +18,8 @@ From Metadata ${metadata}
 if totalPages is not available or else 0 double check it from thr URL : ${url}
 `;
 
-export {generate_promptForFindingSelectors}
+module.exports = { generate_promptForFindingSelectors };
+
 
 //reviewAll: <CSS selector for review_list or review_container that contains all reviews in the page. this element should and mandatory to include or wrapped all reviews elements in page.  >,
 //review: <CSS selector without above "reviewAll" selector for each review parent element which contains child elements of review details like title , body , author , etc .>,
