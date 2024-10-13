@@ -1,7 +1,10 @@
 // /services/llmService.js
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const { logger } = require('../utils/logger');
-const { generate_promptForFindingSelectors } = require("../utils/prompts")
+const { generate_promptForFindingSelectors } = require("../utils/prompts");
+const dotenv = require("dotenv");
+
+dotenv.config();
 
 async function identifyCssSelectors(url,html, metadata) {
   try {
@@ -26,7 +29,7 @@ async function identifyCssSelectors(url,html, metadata) {
 }
 
 const gemini_prompt = async (prompt) => {
-  const apiKey = 'AIzaSyADk3BtNUR_yYQ35EeQL2DLzfWOZL1KN14'
+  const apiKey = process.env.GEMINI_API_KEY
   // Make sure to include these imports:
   const genAI = new GoogleGenerativeAI(apiKey);
   const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" ,generationConfig:{
