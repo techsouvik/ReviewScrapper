@@ -8,7 +8,12 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(cors());
+app.get('/', (req, res) => {
+  res.send('Welcome to the Reviews API!');
+});
+
 app.use('/api/reviews', reviewRoutes);
+
 
 app.listen(PORT, () => {
   logger.info(`Server is running on port ${PORT}`);

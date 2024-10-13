@@ -5,7 +5,8 @@ const { handlePagination } = require('../services/scrapingService');
 const { logger } = require('../utils/logger');
 
 async function getReviews(req, res) {
-  const { url } = req.query;
+  const { page } = req.query;
+  const url = page
 
   if(!url) {
     logger.error('URL is required');
