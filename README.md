@@ -16,7 +16,7 @@ This API is designed to extract reviews from product pages of various e-commerce
 
 ## Live Link 
 
-This a REST API being deployed on Render,
+This a REST API being deployed on Render, [click here](https://gomassign.onrender.com/api/reviews?page=https://2717recovery.com/products/recovery-cream)
 
 ```
 https://gomassign.onrender.com/api/reviews?page=https://2717recovery.com/products/recovery-cream
@@ -28,7 +28,7 @@ Note : The free version of Render is being used and can give a 500 Internal Serv
 
 ## Project Architecture Diagram
 
-This a Data Flow Diagram,
+This a Data Flow Diagram, to access [click here](https://utfs.io/f/TJAg477eCsqbm9D4wp6NDwBc0RLi9SXYj7fnIe5hgPbk48sC)
 
 ```
 https://utfs.io/f/TJAg477eCsqbm9D4wp6NDwBc0RLi9SXYj7fnIe5hgPbk48sC
