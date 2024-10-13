@@ -42,7 +42,7 @@ https://utfs.io/f/TJAg477eCsqbm9D4wp6NDwBc0RLi9SXYj7fnIe5hgPbk48sC
 1. [Installation](#installation)
 2. [Usage](#usage)
 3. [API Endpoints](#api-endpoints)
-4. [Directory](#Directory Structure)
+4. [Directory](#directory-structure)
 5. [Services](#services)
 6. [Environment Variables](#environment-variables)
 7. [Technologies Used](#technologies-used)
