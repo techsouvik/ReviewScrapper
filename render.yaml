@@ -1,0 +1,14 @@
+# Exported from Render on 2024-10-13T06:35:51Z
+services:
+- type: web
+  name: goMAssign
+  runtime: node
+  repo: https://github.com/techsouvik/goMAssign
+  plan: free
+  envVars:
+  - key: GEMINI_API_KEY
+    sync: false
+  region: oregon
+  buildCommand: npm install
+  startCommand: node server.js
+version: "1"
