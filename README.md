@@ -16,7 +16,7 @@ This API is designed to extract reviews from product pages of various e-commerce
 
 ## Live Link 
 
-This a REST API being deployed on Render, [click here](https://gomassign.onrender.com/api/reviews?page=https://2717recovery.com/products/recovery-cream)
+This a REST API being deployed on Render, [click here](https://gomassign.onrender.com/)
 
 ```
 https://gomassign.onrender.com/api/reviews?page=https://2717recovery.com/products/recovery-cream
