@@ -19,7 +19,7 @@ async function identifyCssSelectors(url,html, metadata) {
 
     if(cssSelectors.totalPages == 0){
       logger.info(`Total pages not available in the provided CSS selectors. Making another call to LLM`)
-      indentifyCssSelectors(url,html,metadata)
+      identifyCssSelectors(url,html,metadata)
     }
     return cssSelectors;
   } catch (error) {
